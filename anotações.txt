@@ -1,0 +1,2 @@
+Add-Migration CriandoTabelaDeReceita
+Update-Database

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRestFullAlura", "ApiRestFullAlura\ApiRestFullAlura.csproj", "{7D84490E-78F6-429D-97FF-E3C1A42924CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D84490E-78F6-429D-97FF-E3C1A42924CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D84490E-78F6-429D-97FF-E3C1A42924CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D84490E-78F6-429D-97FF-E3C1A42924CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D84490E-78F6-429D-97FF-E3C1A42924CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AFD9AF7-1476-43AE-AE5D-C766596CA9B7}
+	EndGlobalSection
+EndGlobal
