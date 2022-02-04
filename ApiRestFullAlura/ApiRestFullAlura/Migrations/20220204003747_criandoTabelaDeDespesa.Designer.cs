@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ApiRestFullAlura.Migrations
 {
     [DbContext(typeof(FinanceiroContext))]
-    [Migration("20220203002508_CriandoTabelaDeReceita")]
-    partial class CriandoTabelaDeReceita
+    [Migration("20220204003747_criandoTabelaDeDespesa")]
+    partial class criandoTabelaDeDespesa
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,6 +20,28 @@ namespace ApiRestFullAlura.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63)
                 .HasAnnotation("ProductVersion", "5.0.13")
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+            modelBuilder.Entity("ApiRestFullAlura.Models.Despesa", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("numeric");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Despesas");
+                });
 
             modelBuilder.Entity("ApiRestFullAlura.Models.Receita", b =>
                 {

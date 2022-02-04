@@ -28,7 +28,7 @@ namespace ApiRestFullAlura
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ReceitaContext>(opts => opts.UseNpgsql(Configuration.GetConnectionString("FinanceiroConnection")));
+            services.AddDbContext<FinanceiroContext>(opts => opts.UseNpgsql(Configuration.GetConnectionString("FinanceiroConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

@@ -35,3 +35,9 @@ E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0
 E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\Npgsql.dll
 E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\AutoMapper.dll
+E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\alura\Challenge_Financeiro\ApiRestFullAlura\ApiRestFullAlura\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

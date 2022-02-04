@@ -8,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace ApiRestFullAlura.Profiles
 {
-    public class ReceitaProfile : Profile
+    public class DespesaProfile : Profile
     {
-        public ReceitaProfile()
+        public DespesaProfile()
         {
-            CreateMap<CreateReceitaDto, Receita>();
-            CreateMap<Receita, ReadReceitaDto>();
-            CreateMap<UpdateReceitaDto, Receita>();
+            CreateMap<CreateDespesaDto, Despesa>();
+            CreateMap<Despesa, ReadDespesaDto>();
+            CreateMap<UpdateDespesaDto, Despesa>();
+
         }
     }
 }

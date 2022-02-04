@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace ApiRestFullAlura.Data
 {
-    public class ReceitaContext : DbContext
+    public class FinanceiroContext : DbContext
     {
-        public ReceitaContext(DbContextOptions<ReceitaContext> opt) : base(opt)
+        public FinanceiroContext(DbContextOptions<FinanceiroContext> opt) : base(opt)
         {
         }
 
         public DbSet<Receita> Receitas { get; set; }
+        public DbSet<Despesa> Despesas { get; set; }
     }
 }

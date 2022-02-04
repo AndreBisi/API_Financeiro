@@ -14,10 +14,10 @@ namespace ApiRestFullAlura.Controllers
     [Route("[controller]")]
     public class ReceitaController : ControllerBase
     {
-        private ReceitaContext _context;
+        private FinanceiroContext _context;
         private IMapper _mapper;
 
-        public ReceitaController(ReceitaContext context, IMapper mapper)
+        public ReceitaController(FinanceiroContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -70,19 +70,11 @@ namespace ApiRestFullAlura.Controllers
             Receita receita = _context.Receitas.FirstOrDefault(receita => receita.Id == id);
             if (receita == null)
             {
-                ReadReceitaDto receitaDto = new ReadReceitaDto
-                {
-                    Descricao = receita.Descricao,
-                    Valor = receita.Valor,
-                    Data = receita.Data,
-                    Id = receita.Id
-                };
-                return NotFound();
+               return NotFound();
             }
             _context.Remove(receita);
             _context.SaveChanges();
             return NoContent();
-
         }
     }
 }
